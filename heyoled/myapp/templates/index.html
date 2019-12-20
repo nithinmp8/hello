@@ -1,0 +1,20 @@
+<html>
+<head><title>Dashboard</title></head>
+<body>
+<center><h1>IOT Based Portal For Digital Display</h1>
+<table>
+
+<tr>
+	<td>
+		<form action="oled" method="post">
+		{% csrf_token %}
+		<center><h4>Enter Data</h4></center>
+		<input type="text" name="oled"></br></br>
+		<input type="submit" value="Display On OLED">
+		</form>
+	</td>
+</tr>
+</table>
+<br>
+</body>
+</html>
